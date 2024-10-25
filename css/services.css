@@ -1,0 +1,62 @@
+#heading1{
+    text-align: center;
+}
+.paragraph{
+    font-family: "Segoe Fluent Icons";
+    font-weight: bolder;
+}
+#myDivision{
+    background-color: blue;
+    margin: 50px;
+    padding: 30px;
+}
+#myDivision h1{
+    text-align: center;
+    color: white;
+}
+
+#test{
+    display: flex;
+    background-color: darkgray;
+    margin: 50px;
+    padding: 30px;
+    color: white;
+}
+#test img{
+    margin-right: 30px;
+    width: 300PX;
+    height: 300PX;
+    border-radius: 50%;
+}
+
+#main{
+    display: flex;
+}
+#adverts {
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 8px 4px gray;
+}
+
+#accounting{
+    background-color: rgba(12, 141, 210, 0.97);
+    color: white;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 8px 4px gray;
+}
+
+#payment{
+    background-color: #79d179;
+    color: white;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 8px 4px gray;
+}
+
+
+#accounting:hover,#adverts:hover,#payment:hover{
+    background-color: darkgray;
+}
